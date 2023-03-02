@@ -5,17 +5,17 @@ body {
 header {
     margin: auto;
     width: 50%;
-    background: white;
+    background: #fafdf3;
     border: 3px solid black;
     box-sizing: border-box;
     border-radius: 25px;
     text-align: center;
-    color: #5579c6;
+    color: maroon;
     text-shadow: 2px 2px 2px black;
     font-weight: 300;
     font-size: 45px;
     font-variant: small-caps;
-    font-family: 'Helvetica Neue', sans-serif;
+    font-family: "Lucida Console", "Courier New", monospace;
 }
 
 h1 {
@@ -33,6 +33,15 @@ h2 {
     font-weight: 300;
     line-height: 32px;
     font-family: 'Helvetica Neue', sans-serif;
+}
+
+footer {
+    text-align: center;
+}
+
+.content {
+    max-width: 612px;;
+    margin: auto;
 }
 
 .textbody {
